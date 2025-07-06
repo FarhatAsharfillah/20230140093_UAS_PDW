@@ -1,0 +1,4 @@
+# uploads/.htaccess
+<FilesMatch "\.(php|php5|php7|phar)$">
+  Deny from all
+</FilesMatch>
